@@ -1,0 +1,42 @@
+	SMALL PROJECT
+
+1)	simple scripts
+-> RUN SCRIPT :: DATE TIME STAMP
+	>>output
+
+tail -f output
+2) check the scrit
+->	chECK CHECK CHECK THE SCRIPT
+3)cron.tab
+*/2**** /home/ec2-user/script.sh
+
+cd /home/ec2-user
+time= `date+"%m-%d-%y %t"
+echo $time
+$time >> output
+
+cd /home/ec2-user
+time=`date +"%m-%d-%y %T"`
+echo $time
+echo $time >> output
+
+
+what script you want to run		-LINUX AUTOMATION=JOB SCHUDLE PROGRAM- SPECIFIC TIMMING PROGRAMS WORKS
+sehoes of steps- very 	IMPORTANT
+
+cd /home/ec2-user
+time= `date +"%m-%d-Y %T"`
+echo $time
+$time >> output
+
+AUTOMATION SOFTWARE
+CONTROOL M  	ctrl m
+crontab	free version comes with linux
+
+	SORT COMMAND
+ sort -k 3 -t ',' car
+ awk -F, '{print $2}' car |sort
+
+	
+
+	COLUM COMMAND
